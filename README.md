@@ -52,8 +52,8 @@ The following topology will be used:
      no shutdown
    exit
    ip route 192.168.2.0 255.255.255.0 10.0.0.2
-   e ```
-
+   exit
+...
    On **Router2**, configure interfaces and a static route:
 
    ```
@@ -72,11 +72,6 @@ The following topology will be used:
 
 4. **Test connectivity**
 
-   - Use the **Simulation** tab to send pings from PC1 to PC3 and PC4.
-   - Observe how packets traverse the network across routers and switches. Cisco's learning collection notes that Packet Tracer allows you to watch how data travels, expand your network, integrate IoT devices or practice automation with Python【431533042137856†L151-L170】.
-   - Ensure that pings are successful; troubleshoot if necessary (e.g., check cabling, IP addressing, routing).
-
-## Next Steps
-
-- Experiment with additional features such as DHCP, VLANs, or adding IoT devices.
-- Try using Packet Tracer's **Python** scripting to automate configuration tasks or simulate network automation.
+   - Use the **Simulation** tab in Packet Tracer to send pings from PC1 to PC3 and PC4.
+   - Observe how packets traverse the network across routers and switches. Cisco's learning collection notes that Packet Tracer allows you to watch how data travels, expand your network, integrate IoT devices or practice automation with Python.
+   - Ensure that pings are successful; enable DHCP, configure VLANS, add an IoT device, or use Packet Tracer's Python scripting to automate tasks.
