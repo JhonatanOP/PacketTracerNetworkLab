@@ -52,7 +52,7 @@ The following topology will be used:
      no shutdown
    exit
    ip route 192.168.2.0 255.255.255.0 10.0.0.2
-   exit
+   end
 ...
    On **Router2**, configure interfaces and a static route:
 
